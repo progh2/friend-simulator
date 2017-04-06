@@ -28,6 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="추임새"
+        android:onClick="onClick"
         android:layout_margin="3dp"
         />
 
@@ -36,6 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="깨우기"
+        android:onClick="onClick"
         android:layout_margin="3dp"
         />
 
@@ -44,6 +46,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="휘원이가 말할 때"
+        android:onClick="onClick"
         android:layout_margin="3dp"
         />
 
@@ -52,6 +55,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="평소반응"
+        android:onClick="onClick"
         android:layout_margin="3dp" />
 
 </LinearLayout>

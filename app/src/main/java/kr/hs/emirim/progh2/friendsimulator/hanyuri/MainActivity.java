@@ -14,7 +14,29 @@ public class MainActivity extends AppCompatActivity {
     }
 
     void onClick( View view ){
-        Toast.makeText(this, "작동 해요~", Toast.LENGTH_SHORT).show();
+        switch( view.getId() ){
+            case R.id.button1:
+                Toast.makeText(this, "인냐~~~~~?", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.button2:
+                Toast.makeText(this, "야 디질래?", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.button3:
+                Toast.makeText(this, "이러나~", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.button4:
+                Toast.makeText(this, "헛쏘리하지마", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.button5:
+                Toast.makeText(this, "우하하하하핳ㅎ하하", Toast.LENGTH_SHORT).show();
+                break;
+            default:
+                Toast.makeText(this, "뭐라하는지 모르겠어용", Toast.LENGTH_SHORT).show();
+                break;
+        }
+
+
+
     }
 
 }
